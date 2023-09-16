@@ -1,0 +1,22 @@
+[
+	{
+		"title": "Mainnet (soon)",
+		"url": "https://engramnet.io/",
+		"group": "Mainnets"
+	},
+	{
+		"title": "Testnet Explorer",
+		"url": "https://scan.engram.tech/",
+		"group": "Testnets",
+		"icon": "https://raw.githubusercontent.com/blockscout/frontend-configs/main/configs/network-icons/engram-logos.svg",
+		"invertIconInDarkMode": true
+	},
+	{
+		"title": "Beacon Explorer",
+		"url": "https://zetachain-athens-2.blockscout.com/",
+		"group": "Testnets",
+		"icon": "https://raw.githubusercontent.com/blockscout/frontend-configs/main/configs/network-icons/engram-logos.svg",
+		"invertIconInDarkMode": true,
+		"isActive": true
+	}
+]

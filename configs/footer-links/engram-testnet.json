@@ -1,0 +1,59 @@
+[
+    {
+      "title": "Developers",
+      "links": [
+        {
+          "text": "Documentation",
+          "url": "https://docs.engramnet.io"
+        },
+        {
+          "text": "GitHub",
+          "url": "https://github.com/engram-network"
+        }
+      ]
+    },
+    {
+      "title": "Community",
+      "links": [
+        {
+          "text": "Twitter",
+          "url": "https://x.com/engramnet"
+        },
+        {
+          "text": "Discord",
+          "url": "https://discord.com/invite/d3K67d2PYe"
+        },
+        {
+          "text": "Telegram",
+          "url": "https://t.me/engramnet"
+        }
+      ]
+    },
+    {
+        "title": "Use Engram",
+        "links": [
+          {
+            "text": "Staking Launchpad",
+            "url": "https://launchpad.engram.tech"
+          },
+          {
+            "text": "Become Validator",
+            "url": "https://validator.engram.tech"
+          },
+          {
+            "text": "Swap Testnet",
+            "url": "https://swap.engram.tech"
+          }
+        ]
+      },
+    {
+      "title": "Airdrop Incentivized",
+      "links": [
+        {
+          "text": "Airdrop Upcoming",
+          "url": "https://forms.gle/D2DULMw6M4HuhSr46"
+        }
+      ]
+    }
+  ]
+  
