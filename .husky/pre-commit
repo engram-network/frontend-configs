@@ -8,17 +8,23 @@ echo ''
 
 # validate configs
 echo 🧿 Running marketplace config validator...
-./tools/marketplace-config-validator/script.sh
+yarn validate:marketplace
+
+echo 🧿 Running marketplace security reports validator...
+yarn validate:marketplace-security-reports
 
 echo 🧿 Running featured networks config validator...
-./tools/featured-networks-config-validator/script.sh
+yarn validate:featured-networks
+
+echo 🧿 Running footer links config validator...
+yarn validate:footer-links
 
 # format svg
 echo 🧿 Running svg formatter...
 for file in `git diff --diff-filter=ACMRT --cached --name-only | grep ".svg\$"`
-    do 
-        echo "Formatting $file" 
-        npx svgo -q $file 
+    do
+        echo "Formatting $file"
+        npx svgo -q $file
         git add $file
     done
 

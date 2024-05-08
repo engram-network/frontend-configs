@@ -45,5 +45,26 @@
 				"url": "https://fuse.freshteam.com/jobs"
 			}
 		]
-	}
+	},
+     {
+    "title": "Partners",
+    "links": [
+      {
+        "text": "MetaSuites",
+        "url": "https://blocksec.com/metasuites"
+      },
+      {
+        "text": "Sourcify",
+        "url": "https://sourcify.dev/"
+      },
+      {
+        "text": "DRPC",
+        "url": "https://drpc.org?ref=559183"
+      },
+      {
+        "text": "BlockSec",
+        "url": "https://blocksec.com/"
+      }
+    ]
+  }
 ]

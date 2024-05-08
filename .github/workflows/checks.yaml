@@ -11,12 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
           cache: 'yarn'
 
       - name: Install dependencies
@@ -28,10 +28,13 @@ jobs:
         run: yarn eslint .
 
       - name: Validate marketplace config schema
-        run: './tools/marketplace-config-validator/script.sh'
+        run: yarn validate:marketplace
+
+      - name: Validate marketplace security reports schema
+        run: yarn validate:marketplace-security-reports
 
       - name: Validate featured networks config schema
-        run: './tools/featured-networks-config-validator/script.sh'
+        run: yarn validate:featured-networks
 
       - name: Validate footer links config schema
-        run: './tools/footer-links-config-validator/script.sh'
+        run: yarn validate:footer-links
